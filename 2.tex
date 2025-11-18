@@ -1,7 +1,8 @@
 \documentclass[UTF8,a4paper]{ctexart}
 
-\usepackage[left=2.5cm,right=2.5cm,top=2.2cm,bottom=2.2cm]{geometry}
+\usepackage[left=2.2cm,right=2.2cm,top=2.2cm,bottom=2.2cm]{geometry}
 \usepackage{array}
+\usepackage{tikz}
 
 \pagestyle{empty}
 
@@ -9,11 +10,11 @@
 
 % ======= 标题 =======
 \begin{center}
-  \vspace*{0.5cm}
+  % \vspace*{0.1cm}
   {\bfseries\zihao{-1}
-  苏\quad 州\quad 大\quad 学\quad 实\quad 验\quad 报\quad 告\\[-0.45em]}%
-  % 标题下划线：往上贴近大标题
-  \rule{0.8\textwidth}{0.4pt}
+  苏\quad 州\quad 大\quad 学\quad 实\quad 验\quad 报\quad 告\\[-0.3em]}
+  % 标题下划线
+  \rule[0pt]{0.8\textwidth}{0.4pt}
 \end{center}
 
 \vspace{0.3cm}
@@ -38,11 +39,13 @@
 同组实验者\dotfill
 实验日期\dotfill
 
+\vspace{-1cm}
+
 % ======= 大框 =======
 \noindent
 \begin{center}
 \fbox{%
-  \begin{minipage}[t][0.80\textheight]{\textwidth}  % 框稍微加高
+  \begin{minipage}[t][0.82\textheight]{1\textwidth}
     \vspace{0.7cm}
     \hspace*{2em}实验名称\underline{\makebox[0.72\textwidth][l]{}}\\[0.2em]
     % 下面为空白区域
